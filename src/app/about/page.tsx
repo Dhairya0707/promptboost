@@ -27,9 +27,9 @@ const AboutPage = () => {
           <CardContent>
             <p className="text-muted-foreground">
               PromptBoost is an innovative tool designed to enhance your prompts
-              using advanced AI technology. Whether you're a writer, developer,
-              or content creator, our tool helps you create more effective and
-              precise prompts for any AI platform.
+              using advanced AI technology. Whether your are a writer,
+              developer, or content creator, our tool helps you create more
+              effective and precise prompts for any AI platform.
             </p>
           </CardContent>
         </Card>
@@ -45,7 +45,7 @@ const AboutPage = () => {
             </CardHeader>
             <CardContent>
               <p>
-                Powered by Google's Gemini AI API (free tier), delivering
+                Powered by Googles Gemini AI API (free tier), delivering
                 state-of-the-art prompt enhancement capabilities. Our
                 implementation uses the Gemini-2.0-flash model for quick and
                 efficient responses.
@@ -231,7 +231,7 @@ const AboutPage = () => {
               <div>
                 <h3 className="font-semibold mb-2">Technologies</h3>
                 <p className="text-muted-foreground">
-                  Special thanks to Google's Gemini AI team for the API, Shadcn
+                  Special thanks to Googles Gemini AI team for the API, Shadcn
                   for the beautiful UI components, and the entire open-source
                   community.
                 </p>
