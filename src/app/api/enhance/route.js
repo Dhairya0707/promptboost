@@ -1,4 +1,3 @@
-// import { error } from "console";
 import { NextResponse } from "next/server";
 import { GoogleGenerativeAI } from "@google/generative-ai"; // Change to import
 // ... existing code ...

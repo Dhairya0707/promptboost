@@ -2,24 +2,14 @@
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   AlignLeft,
-  BookOpenText,
   Bot,
   Briefcase,
   Brush,
   ClipboardPaste,
-  Image,
   Shrink,
-  Terminal,
 } from "lucide-react";
 import React, { useRef, useState } from "react";
 import {
@@ -243,7 +233,7 @@ const MainBox = () => {
                     updateactive("AI Art");
                   }}
                 >
-                  <Image className="w-4 h-4" />
+                  <Bot className="w-4 h-4" />
                   AI Art
                 </Button>
 
