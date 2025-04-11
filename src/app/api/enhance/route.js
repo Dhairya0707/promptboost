@@ -1,6 +1,7 @@
-import { error } from "console";
+// import { error } from "console";
 import { NextResponse } from "next/server";
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+import { GoogleGenerativeAI } from "@google/generative-ai"; // Change to import
+// ... existing code ...
 
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 

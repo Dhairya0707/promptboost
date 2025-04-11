@@ -22,7 +22,6 @@ import {
   Terminal,
 } from "lucide-react";
 import React, { useRef, useState } from "react";
-import EnhancementTypeSelector from "./Enahncer";
 import {
   Select,
   SelectContent,
@@ -38,7 +37,7 @@ import Markdown from "react-markdown";
 
 const MainBox = () => {
   const [msg, setmsg] = useState("");
-  const [activetype, setactivetype] = useState<String>("Descriptive");
+  const [activetype, setactivetype] = useState<string>("Descriptive");
   const [tone, setTone] = useState("casual");
   const [outputLength, setOutputLength] = useState("Medium");
   const [emojiEnabled, setEmojiEnabled] = useState(false);
@@ -67,12 +66,11 @@ const MainBox = () => {
       alert("Clipboard access failed. Please paste manually.");
     }
   };
-
-  const updateactive = (name: String) => {
+  const updateactive = (name: string) => {
     setactivetype(name);
   };
 
-  const type = (name: String) => {
+  const type = (name: string) => {
     return activetype === name ? "default" : "outline";
   };
 

@@ -61,7 +61,7 @@ PromptBoost is an innovative AI-powered tool designed to enhance and optimize yo
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/promptboost.git
+git clone https://github.com/Dhairya0707/promptboost
 cd promptboost
 ```
 
@@ -167,8 +167,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Developed by Dhairya Darji
 
-- [GitHub](https://github.com/yourusername)
-- [LinkedIn](https://linkedin.com/in/yourusername)
+- [GitHub](https://github.com/Dhairya0707)
+- [LinkedIn](https://linkedin.com/in/dhairya-darji-072428284)
 
 ---
 

@@ -131,7 +131,9 @@ const AboutPage = () => {
                   <li>Toggle emoji inclusion</li>
                 </ul>
               </li>
-              <li>Click "Enhance Prompt" to generate improved content</li>
+              <li>
+                Click &quot;Enhance Prompt&quot; to generate improved content
+              </li>
               <li>Copy and use your enhanced prompt anywhere</li>
             </ol>
           </CardContent>
@@ -257,7 +259,7 @@ const AboutPage = () => {
                   </p>
                   <div className="flex flex-col space-y-2 mt-4">
                     <a
-                      href="https://github.com/yourusername"
+                      href="https://github.com/Dhairya0707"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-primary hover:underline"
@@ -279,7 +281,7 @@ const AboutPage = () => {
                       GitHub Profile
                     </a>
                     <a
-                      href="https://linkedin.com/in/yourusername"
+                      href="https://linkedin.com/in/dhairya-darji-072428284"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-primary hover:underline"
@@ -310,7 +312,7 @@ const AboutPage = () => {
                   <div>
                     <h4 className="font-medium mb-2">Project Repository</h4>
                     <a
-                      href="https://github.com/yourusername/promptboost"
+                      href="https://github.com/Dhairya0707/promptboost"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline flex items-center gap-2"
