@@ -1,36 +1,175 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 PromptBoost
 
-## Getting Started
+PromptBoost is an innovative AI-powered tool designed to enhance and optimize your prompts. Whether you're a writer, developer, or content creator, PromptBoost helps you create more effective and precise prompts for any AI platform.
 
-First, run the development server:
+<!-- ![PromptBoost Banner](public/banner.png) -->
+
+## ✨ Features
+
+### 🎯 Core Functionality
+
+- **Prompt Enhancement**: Transform basic prompts into powerful, context-rich instructions
+- **Multiple Enhancement Types**:
+  - Descriptive
+  - Creative
+  - Professional
+  - Concise
+  - AI Art
+  - AI Optimized
+
+### 🎨 Customization Options
+
+- **Tone Selection**: Choose from various tones (Casual, Formal, Technical, etc.)
+- **Output Length**: Control response length (Short, Medium, Long)
+- **Creativity Level**: Adjust creativity from Neutral to Very Creative
+- **Emoji Support**: Toggle emoji inclusion in enhanced outputs
+
+### 📝 History Management
+
+- **Prompt History**: Track all your enhanced prompts
+- **Easy Access**: View and manage your previous prompts
+- **Delete Options**: Remove unwanted entries
+- **Local Storage**: All history saved locally for privacy
+
+## 🛠️ Technical Stack
+
+### Frontend
+
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- Shadcn/ui components with Matsu Theme
+- Lucide Icons
+
+### Backend & API
+
+- Next.js API Routes
+- Google Gemini AI (2.0-flash model)
+- Local Storage for data persistence
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+- Google Gemini AI API key
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/promptboost.git
+cd promptboost
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Set up environment variables
+
+```bash
+cp .env.example .env.local
+```
+
+Add your Google Gemini AI API key to `.env.local`:
+API_KEY=your_api_key_here
+
+4. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 UI Theme
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses the beautiful Matsu Theme, inspired by Ghibli Studio animations. Created by Matt Wierzbicki, it features:
 
-## Learn More
+- Unique watercolor paper texture
+- Carefully crafted color palette
+- Modern and clean design
+- [View Theme](https://matsu-theme.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Enter Your Prompt**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   - Type or paste your base prompt in the text area
+   - Use the paste button for quick clipboard access
 
-## Deploy on Vercel
+2. **Customize Enhancement**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Select enhancement type
+   - Choose appropriate tone
+   - Adjust output length
+   - Set creativity level
+   - Toggle emoji inclusion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Generate Enhanced Prompt**
+   - Click "Enhance Prompt"
+   - Copy the enhanced result
+   - View history anytime
+
+## 🗺️ Roadmap
+
+### Coming Soon
+
+- 🧪 AI Experiments Section
+
+  - Open-ended AI interactions
+  - Prompt style testing
+  - Side-by-side comparison
+
+- 🌓 Dark Mode Support
+
+  - System preference detection
+  - Manual theme toggle
+
+- 🔄 Quality of Life Updates
+  - Enhanced mobile responsiveness
+  - Improved history management
+  - Better copy/paste functionality
+  - Keyboard shortcuts
+
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Google Gemini AI team for the powerful API
+- Shadcn for the beautiful UI components
+- Matt Wierzbicki for the Matsu Theme
+- The open-source community
+
+## 👨‍💻 Developer
+
+Developed by Dhairya Darji
+
+- [GitHub](https://github.com/yourusername)
+- [LinkedIn](https://linkedin.com/in/yourusername)
+
+---
+
+Made with ❤️ by Dhairya Darji
