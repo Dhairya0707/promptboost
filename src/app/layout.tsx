@@ -15,9 +15,12 @@ const ptSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "PromptBoost",
+  title: "PromptBoost ⚡ Enhance Your AI Prompts",
   description:
-    "Transform your prompts into powerful, context-rich instructions using AI",
+    "An AI-powered tool to optimize your prompts for better results.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
