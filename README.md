@@ -2,6 +2,10 @@
 
 PromptBoost is an innovative AI-powered tool designed to enhance and optimize your prompts. Whether you're a writer, developer, or content creator, PromptBoost helps you create more effective and precise prompts for any AI platform.
 
+## 🌐 Live Demo
+
+You can check out the live version of PromptBoost at [https://promptboost-kohl.vercel.app/](https://promptboost-kohl.vercel.app/).
+
 <!-- ![PromptBoost Banner](public/banner.png) -->
 
 ## ✨ Features
